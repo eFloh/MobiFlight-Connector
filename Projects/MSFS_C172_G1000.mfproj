@@ -1,0 +1,3605 @@
+{
+  "Name": "MSFS_C172_G1000-flo",
+  "ConfigFiles": [
+    {
+      "Label": "MSFS_C172_G1000-flo",
+      "FileName": "D:\\flo\\Downloads\\fs\\MSFS_C172_G1000_1.1\\MSFS_C172_G1000.mcc",
+      "ReferenceOnly": false,
+      "EmbedContent": true,
+      "ConfigItems": [
+        {
+          "Source": {
+            "SimConnectValue": {
+              "UUID": "59411677-275b-4f69-82d2-eb93c20db76c",
+              "Value": "(A:AUTOPILOT MASTER,Bool)",
+              "VarType": 2
+            },
+            "Type": "SimConnectSource"
+          },
+          "TestValue": {
+            "type": 1,
+            "Float64": 1.0,
+            "String": null
+          },
+          "Device": {
+            "Name": "AP Master",
+            "Pin": "AP Master",
+            "Brightness": 255,
+            "PwmMode": false,
+            "Type": "Output"
+          },
+          "DeviceType": "Output",
+          "DeviceName": "AP Master",
+          "GUID": "0a7c3701-bacb-4928-8d1a-ad19f590f10e",
+          "Active": true,
+          "Name": "AP Master",
+          "Type": "OutputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          },
+          "Preconditions": [
+            {
+              "Type": "config",
+              "Ref": "b33d110f-de6a-492e-8e5c-87850eed3601",
+              "Serial": null,
+              "Pin": null,
+              "Operand": "=",
+              "Value": "0",
+              "Logic": "and",
+              "Active": true
+            }
+          ],
+          "Modifiers": {
+            "Items": [
+              {
+                "Type": "Transformation",
+                "Expression": "$",
+                "Active": false
+              },
+              {
+                "Type": "Comparison",
+                "Operand": "",
+                "Value": "",
+                "IfValue": "",
+                "ElseValue": "",
+                "Active": false
+              }
+            ]
+          },
+          "RawValue": "0",
+          "Value": "0"
+        },
+        {
+          "Source": {
+            "SimConnectValue": {
+              "UUID": "4eb2a124-0af9-45c5-a665-00b94bc0c207",
+              "Value": "(A:AUTOPILOT HEADING LOCK,Bool)",
+              "VarType": 2
+            },
+            "Type": "SimConnectSource"
+          },
+          "TestValue": {
+            "type": 1,
+            "Float64": 1.0,
+            "String": null
+          },
+          "Device": {
+            "Name": "AP HDG",
+            "Pin": "AP HDG",
+            "Brightness": 255,
+            "PwmMode": false,
+            "Type": "Output"
+          },
+          "DeviceType": "Output",
+          "DeviceName": "AP HDG",
+          "GUID": "a8323ce0-f397-497b-b636-010f922b0bbd",
+          "Active": true,
+          "Name": "AP HDG",
+          "Type": "OutputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          },
+          "Modifiers": {
+            "Items": [
+              {
+                "Type": "Transformation",
+                "Expression": "$",
+                "Active": false
+              },
+              {
+                "Type": "Comparison",
+                "Operand": "",
+                "Value": "",
+                "IfValue": "",
+                "ElseValue": "",
+                "Active": false
+              }
+            ]
+          },
+          "RawValue": "0",
+          "Value": "0"
+        },
+        {
+          "Source": {
+            "SimConnectValue": {
+              "UUID": "4224fc05-b6e9-44d4-9468-c546a05a99c4",
+              "Value": "(A:AUTOPILOT NAV1 LOCK,Bool)",
+              "VarType": 2
+            },
+            "Type": "SimConnectSource"
+          },
+          "TestValue": {
+            "type": 1,
+            "Float64": 1.0,
+            "String": null
+          },
+          "Device": {
+            "Name": "AP NAV",
+            "Pin": "AP NAV",
+            "Brightness": 255,
+            "PwmMode": false,
+            "Type": "Output"
+          },
+          "DeviceType": "Output",
+          "DeviceName": "AP NAV",
+          "GUID": "0d9e6190-5a1f-4f2f-bf57-33fd14db6e57",
+          "Active": true,
+          "Name": "AP NAV",
+          "Type": "OutputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          },
+          "Modifiers": {
+            "Items": [
+              {
+                "Type": "Transformation",
+                "Expression": "$",
+                "Active": false
+              },
+              {
+                "Type": "Comparison",
+                "Operand": "",
+                "Value": "",
+                "IfValue": "",
+                "ElseValue": "",
+                "Active": false
+              }
+            ]
+          },
+          "RawValue": "0",
+          "Value": "0"
+        },
+        {
+          "Source": {
+            "SimConnectValue": {
+              "UUID": "d7187230-2fd2-41a7-b22e-55e3e8a0ec12",
+              "Value": "(A:AUTOPILOT APPROACH HOLD,Bool)",
+              "VarType": 2
+            },
+            "Type": "SimConnectSource"
+          },
+          "TestValue": {
+            "type": 1,
+            "Float64": 1.0,
+            "String": null
+          },
+          "Device": {
+            "Name": "AP APR",
+            "Pin": "AP APR",
+            "Brightness": 255,
+            "PwmMode": false,
+            "Type": "Output"
+          },
+          "DeviceType": "Output",
+          "DeviceName": "AP APR",
+          "GUID": "ce02f3be-db75-4908-92d3-debc9be9b619",
+          "Active": true,
+          "Name": "AP APR",
+          "Type": "OutputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          },
+          "Modifiers": {
+            "Items": [
+              {
+                "Type": "Transformation",
+                "Expression": "$",
+                "Active": false
+              },
+              {
+                "Type": "Comparison",
+                "Operand": "",
+                "Value": "",
+                "IfValue": "",
+                "ElseValue": "",
+                "Active": false
+              }
+            ]
+          },
+          "RawValue": "0",
+          "Value": "0"
+        },
+        {
+          "Source": {
+            "SimConnectValue": {
+              "UUID": "09df7de7-01e4-43ac-8015-9573385d8acb",
+              "Value": "(A:AUTOPILOT ALTITUDE LOCK,Bool)",
+              "VarType": 2
+            },
+            "Type": "SimConnectSource"
+          },
+          "TestValue": {
+            "type": 1,
+            "Float64": 1.0,
+            "String": null
+          },
+          "Device": {
+            "Name": "AP ALT",
+            "Pin": "AP ALT",
+            "Brightness": 255,
+            "PwmMode": false,
+            "Type": "Output"
+          },
+          "DeviceType": "Output",
+          "DeviceName": "AP ALT",
+          "GUID": "63d66697-2dc0-40bd-b164-d98a79284da5",
+          "Active": true,
+          "Name": "AP ALT",
+          "Type": "OutputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          },
+          "Modifiers": {
+            "Items": [
+              {
+                "Type": "Transformation",
+                "Expression": "$",
+                "Active": false
+              },
+              {
+                "Type": "Comparison",
+                "Operand": "",
+                "Value": "",
+                "IfValue": "",
+                "ElseValue": "",
+                "Active": false
+              }
+            ]
+          },
+          "RawValue": "0",
+          "Value": "0"
+        },
+        {
+          "Source": {
+            "SimConnectValue": {
+              "UUID": "3c5c84e5-a499-4a07-8d0c-f812004f60fe",
+              "Value": "(A:AUTOPILOT VERTICAL HOLD,Bool)",
+              "VarType": 2
+            },
+            "Type": "SimConnectSource"
+          },
+          "TestValue": {
+            "type": 1,
+            "Float64": 1.0,
+            "String": null
+          },
+          "Device": {
+            "Name": "AP VS",
+            "Pin": "AP VS",
+            "Brightness": 255,
+            "PwmMode": false,
+            "Type": "Output"
+          },
+          "DeviceType": "Output",
+          "DeviceName": "AP VS",
+          "GUID": "107b411b-dd01-41a6-9749-3f3a2c3df1f6",
+          "Active": true,
+          "Name": "AP VS",
+          "Type": "OutputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          },
+          "Modifiers": {
+            "Items": [
+              {
+                "Type": "Transformation",
+                "Expression": "$",
+                "Active": false
+              },
+              {
+                "Type": "Comparison",
+                "Operand": "",
+                "Value": "",
+                "IfValue": "",
+                "ElseValue": "",
+                "Active": false
+              },
+              {
+                "Type": "Blink",
+                "BlinkValue": "0",
+                "OnOffSequence": [
+                  500,
+                  500,
+                  150,
+                  150,
+                  150,
+                  500
+                ],
+                "OffDurationInMs": 500,
+                "FirstExecutionTime": 639096396316619467,
+                "Active": true
+              }
+            ]
+          },
+          "RawValue": "0",
+          "Value": "0"
+        },
+        {
+          "Source": {
+            "SimConnectValue": {
+              "UUID": "278b7956-ba2b-4d67-9a17-6ed8ce376211",
+              "Value": "(A:PILOT TRANSMITTER TYPE,Enum)",
+              "VarType": 2
+            },
+            "Type": "SimConnectSource"
+          },
+          "TestValue": {
+            "type": 1,
+            "Float64": 0.0,
+            "String": null
+          },
+          "DeviceType": "-",
+          "DeviceName": null,
+          "GUID": "1172106d-0887-488c-8069-85dbad455016",
+          "Active": true,
+          "Name": "PILOT_NEXT_TX",
+          "Type": "OutputConfigItem",
+          "Controller": null,
+          "Modifiers": {
+            "Items": [
+              {
+                "Type": "Transformation",
+                "Expression": "if($,0,1)",
+                "Active": true
+              }
+            ]
+          },
+          "RawValue": "0",
+          "Value": "1"
+        },
+        {
+          "Source": {
+            "SimConnectValue": {
+              "UUID": "7d54c6ef-2128-4df8-acf6-a5303fe54a8e",
+              "Value": "(A:TRANSPONDER STATE:1,Enum)",
+              "VarType": 2
+            },
+            "Type": "SimConnectSource"
+          },
+          "TestValue": {
+            "type": 1,
+            "Float64": 3.0,
+            "String": null
+          },
+          "DeviceType": "-",
+          "DeviceName": null,
+          "GUID": "5fcf49a7-59f5-466f-9c9f-81b06c5184ff",
+          "Active": true,
+          "Name": "NEXT XPDR MODE",
+          "Type": "OutputConfigItem",
+          "Controller": null,
+          "Modifiers": {
+            "Items": [
+              {
+                "Type": "Transformation",
+                "Expression": "($ + 1) % 5",
+                "Active": true
+              }
+            ]
+          },
+          "RawValue": "0",
+          "Value": "1"
+        },
+        {
+          "Source": {
+            "SimConnectValue": {
+              "UUID": "52651173-1aec-4cbd-a4dd-deacb0216dd5",
+              "Value": "(A:STALL WARNING,Bool)",
+              "VarType": 2
+            },
+            "Type": "SimConnectSource"
+          },
+          "TestValue": {
+            "type": 1,
+            "Float64": 1.0,
+            "String": null
+          },
+          "Device": {
+            "Name": "AP ALT",
+            "Pin": "AP ALT",
+            "Brightness": 255,
+            "PwmMode": false,
+            "Type": "Output"
+          },
+          "DeviceType": "Output",
+          "DeviceName": "AP ALT",
+          "GUID": "5912fa2f-6e2b-4592-9f9d-ac76c87edc42",
+          "Active": true,
+          "Name": "stall warning",
+          "Type": "OutputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          },
+          "Preconditions": [
+            {
+              "Type": "config",
+              "Ref": "b33d110f-de6a-492e-8e5c-87850eed3601",
+              "Serial": null,
+              "Pin": null,
+              "Operand": "=",
+              "Value": "1",
+              "Logic": "and",
+              "Active": true
+            }
+          ],
+          "Modifiers": {
+            "Items": [
+              {
+                "Type": "Transformation",
+                "Expression": "$",
+                "Active": true
+              },
+              {
+                "Type": "Comparison",
+                "Operand": "=",
+                "Value": "",
+                "IfValue": "",
+                "ElseValue": "",
+                "Active": true
+              },
+              {
+                "Type": "Blink",
+                "BlinkValue": "0",
+                "OnOffSequence": [
+                  500,
+                  120,
+                  120,
+                  100,
+                  120,
+                  100,
+                  120,
+                  500
+                ],
+                "OffDurationInMs": 500,
+                "FirstExecutionTime": 639096396325107755,
+                "Active": true
+              }
+            ]
+          },
+          "RawValue": "0",
+          "Value": "0",
+          "Status": {
+            "Precondition": "not satisfied"
+          }
+        },
+        {
+          "Source": {
+            "SimConnectValue": {
+              "UUID": "52651173-1aec-4cbd-a4dd-deacb0216dd5",
+              "Value": "(A:STALL WARNING,Bool)",
+              "VarType": 2
+            },
+            "Type": "SimConnectSource"
+          },
+          "TestValue": {
+            "type": 1,
+            "Float64": 1.0,
+            "String": null
+          },
+          "ButtonInputConfig": {
+            "onPress": {
+              "Type": "VariableInputAction",
+              "Variable": {
+                "TYPE": "number",
+                "Name": "LIGHT_STATE",
+                "Number": 0.0,
+                "Text": "",
+                "Expression": "$"
+              }
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "InputAction",
+          "DeviceName": null,
+          "GUID": "b33d110f-de6a-492e-8e5c-87850eed3601",
+          "Active": true,
+          "Name": "stall led state",
+          "Type": "OutputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          },
+          "Modifiers": {
+            "Items": [
+              {
+                "Type": "Comparison",
+                "Operand": "=",
+                "Value": "1",
+                "IfValue": "1",
+                "ElseValue": "0",
+                "Active": true
+              }
+            ]
+          },
+          "RawValue": "0",
+          "Value": "0"
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>K:COM_RADIO_WHOLE_INC)",
+              "PresetId": "e1a79c8b-2e4a-49b2-9284-d1cf0adc5707"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_COM1_OI"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_COM1_OI",
+          "GUID": "d081a4e8-fe04-41d5-938c-a18884be10bc",
+          "Active": true,
+          "Name": "COM1 Freq Coarse +",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>K:COM_RADIO_WHOLE_DEC)",
+              "PresetId": "ec154767-41ce-4a2f-865b-3e6fe7c90c89"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_COM1_OD"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_COM1_OD",
+          "GUID": "a6eca923-7636-4551-9b97-2ee423457bd4",
+          "Active": true,
+          "Name": "COM1 Freq Coarse -",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>K:COM_RADIO_FRACT_INC)",
+              "PresetId": "6b78a3e2-e3dc-411b-bb2d-224b011a2644"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_COM1_II"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_COM1_II",
+          "GUID": "2a02fc43-d3aa-43de-8d41-3e3f5f740bdb",
+          "Active": true,
+          "Name": "COM1 Freq Fine +",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>K:COM_RADIO_FRACT_DEC)",
+              "PresetId": "04725cc3-7346-4f5d-ad89-c1ffaaa6e978"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_COM1_ID"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_COM1_ID",
+          "GUID": "b6e61aeb-00d8-41ea-aad4-d1244471fc56",
+          "Active": true,
+          "Name": "COM1 Freq Fine -",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>K:COM1_RADIO_SWAP)\n0 (>K:PILOT_TRANSMITTER_SET)",
+              "PresetId": "-"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_COM1_TOG"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_COM1_TOG",
+          "GUID": "4b7ca0e5-7c16-47cc-b2e0-43ee6be009b2",
+          "Active": false,
+          "Name": "COM1 Freq Toggle and sel",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>K:COM1_RADIO_SWAP)",
+              "PresetId": "0"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_COM1_TOG"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_COM1_TOG",
+          "GUID": "8b810c7c-ec13-43e8-aec4-4d360495d0ce",
+          "Active": true,
+          "Name": "COM1 Freq Toggle",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>K:COM2_RADIO_WHOLE_INC)",
+              "PresetId": "d749b8a9-7fdd-4f7d-91b4-3b0eeac53ced"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_COM2_OI"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_COM2_OI",
+          "GUID": "54d6285d-67cc-4c4d-a1d0-2c047b5f154a",
+          "Active": true,
+          "Name": "COM2 Freq Coarse +",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>K:COM2_RADIO_WHOLE_DEC)",
+              "PresetId": "9e748e8d-2ee3-47fc-9253-dac2452f8cbe"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_COM2_OD"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_COM2_OD",
+          "GUID": "104d9bbe-5f28-47b0-bfeb-322fe2ffe5fd",
+          "Active": true,
+          "Name": "COM2 Freq Coarse -",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>K:COM2_RADIO_FRACT_INC)",
+              "PresetId": "0f6c89b5-398e-4d88-9332-f2c855d7690b"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_COM2_II"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_COM2_II",
+          "GUID": "f58324fc-f5ca-4607-8b88-67ed2d6f26b0",
+          "Active": true,
+          "Name": "COM2 Freq Fine +",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>K:COM2_RADIO_FRACT_DEC)",
+              "PresetId": "de76b2e3-c555-499f-a2fd-f3c5d3461c68"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_COM2_ID"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_COM2_ID",
+          "GUID": "f80eb039-b758-4daa-8136-28fe2c6e7160",
+          "Active": true,
+          "Name": "COM2 Freq Fine -",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>K:COM2_RADIO_SWAP)\n1 (>K:PILOT_TRANSMITTER_SET)",
+              "PresetId": "b4d05ce0-0005-427a-b698-45c28cde0a18"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_COM2_TOG"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_COM2_TOG",
+          "GUID": "1233c165-a199-425d-9755-4c4bcf263702",
+          "Active": false,
+          "Name": "COM2 Freq Toggle and sel",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>K:COM2_RADIO_SWAP)",
+              "PresetId": "b4d05ce0-0005-427a-b698-45c28cde0a18"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_COM2_TOG"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_COM2_TOG",
+          "GUID": "3edce0de-062a-466a-ada6-fe282cc90cbe",
+          "Active": true,
+          "Name": "COM2 Freq Toggle",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>K:HEADING_BUG_INC)\n(>K:HEADING_BUG_INC)\n(>K:HEADING_BUG_INC)\n(>K:HEADING_BUG_INC)\n(>K:HEADING_BUG_INC)\n(>K:HEADING_BUG_INC)\n(>K:HEADING_BUG_INC)\n(>K:HEADING_BUG_INC)\n(>K:HEADING_BUG_INC)\n(>K:HEADING_BUG_INC)",
+              "PresetId": "debca2cf-3a15-40f0-b839-3e1e153cd0f4"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_COM1^_OI"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_COM1^_OI",
+          "GUID": "c6360c42-d274-47a6-a614-4edf196068d2",
+          "Active": true,
+          "Name": "HDG Coarse +",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>K:HEADING_BUG_DEC)\n(>K:HEADING_BUG_DEC)\n(>K:HEADING_BUG_DEC)\n(>K:HEADING_BUG_DEC)\n(>K:HEADING_BUG_DEC)\n(>K:HEADING_BUG_DEC)\n(>K:HEADING_BUG_DEC)\n(>K:HEADING_BUG_DEC)\n(>K:HEADING_BUG_DEC)\n(>K:HEADING_BUG_DEC)",
+              "PresetId": "cab52499-c789-4249-bc21-31f920d4e604"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_COM1^_OD"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_COM1^_OD",
+          "GUID": "599143a7-fac3-49b9-aa3d-405f5349d489",
+          "Active": true,
+          "Name": "HDG Coarse -",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>K:HEADING_BUG_INC)",
+              "PresetId": "debca2cf-3a15-40f0-b839-3e1e153cd0f4"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_COM1^_II"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_COM1^_II",
+          "GUID": "a52a3a0f-ebb6-4ae5-b727-fdceb1905678",
+          "Active": true,
+          "Name": "HDG Fine +",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>K:HEADING_BUG_DEC)",
+              "PresetId": "cab52499-c789-4249-bc21-31f920d4e604"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_COM1^_ID"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_COM1^_ID",
+          "GUID": "ea71a6aa-eb4e-4df5-9244-71334c2abb02",
+          "Active": true,
+          "Name": "HDG Fine -",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(A:HEADING INDICATOR, degrees) (>K:HEADING_BUG_SET)",
+              "PresetId": "67c38b01-e4cd-448c-a572-cba1b6d250f5"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_COM1^_TOG"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_COM1^_TOG",
+          "GUID": "45e33641-f251-4c05-a221-99a47b824836",
+          "Active": true,
+          "Name": "HDG Toggle (Sync)",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>K:KOHLSMAN_INC)\n(>K:KOHLSMAN_INC)\n(>K:KOHLSMAN_INC)\n(>K:KOHLSMAN_INC)\n(>K:KOHLSMAN_INC)",
+              "PresetId": "37a18b0c-4cb6-4041-8558-ae5c572ab856"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_COM2^_OI"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_COM2^_OI",
+          "GUID": "aeb1a60b-1c29-4ffb-9e4f-51791d35c9f9",
+          "Active": true,
+          "Name": "BARO Coarse +",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>K:KOHLSMAN_DEC)\n(>K:KOHLSMAN_DEC)\n(>K:KOHLSMAN_DEC)\n(>K:KOHLSMAN_DEC)\n(>K:KOHLSMAN_DEC)",
+              "PresetId": "0ae9d653-22d8-4daa-aefd-7aebab9ef122"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_COM2^_OD"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_COM2^_OD",
+          "GUID": "2e4a6143-5028-498b-b537-073966ef3470",
+          "Active": true,
+          "Name": "BARO Coarse -",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>K:KOHLSMAN_INC)",
+              "PresetId": "37a18b0c-4cb6-4041-8558-ae5c572ab856"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_COM2^_II"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_COM2^_II",
+          "GUID": "5ce9f394-5450-4ef7-85b3-b52f5d2e7098",
+          "Active": true,
+          "Name": "BARO Fine +",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>K:KOHLSMAN_DEC)",
+              "PresetId": "0ae9d653-22d8-4daa-aefd-7aebab9ef122"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_COM2^_ID"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_COM2^_ID",
+          "GUID": "d006dec1-6d6b-4d3d-835a-cbeb1f492f57",
+          "Active": true,
+          "Name": "BARO Fine -",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "16210.5 (>K:KOHLSMAN_SET)",
+              "PresetId": "32ad081a-4923-42b6-a18e-1a6cf6d4ab64"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_COM2^_TOG"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_COM2^_TOG",
+          "GUID": "c2492d47-6687-476a-9734-97a889c82bc4",
+          "Active": true,
+          "Name": "BARO Toggle (Sync)",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>K:NAV1_RADIO_WHOLE_INC)",
+              "PresetId": "1ae481bc-bea6-4f58-a683-01c9d0c38e32"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_NAV1_OI"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_NAV1_OI",
+          "GUID": "916b564c-dcae-4808-9ce1-44a680a787dc",
+          "Active": true,
+          "Name": "NAV1 Freq Coarse +",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          },
+          "RawValue": "PRESS",
+          "Value": " "
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>K:NAV1_RADIO_WHOLE_DEC)",
+              "PresetId": "bcb45f55-c67a-44b9-a951-096e450ccec7"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_NAV1_OD"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_NAV1_OD",
+          "GUID": "c2035767-170d-44fa-acee-a10304bf8088",
+          "Active": true,
+          "Name": "NAV1 Freq Coarse -",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>K:NAV1_RADIO_FRACT_INC)",
+              "PresetId": "91d424e5-4d6a-48a0-a435-153331c604b3"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_NAV1_II"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_NAV1_II",
+          "GUID": "9c86220c-8cea-47ca-992b-a92705adec1a",
+          "Active": true,
+          "Name": "NAV1 Freq Fine +",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>K:NAV1_RADIO_FRACT_DEC)",
+              "PresetId": "f92f319c-75e2-471e-845a-764540c65040"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_NAV1_ID"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_NAV1_ID",
+          "GUID": "088cb9d2-ca33-4a5a-9763-52a70b912f6b",
+          "Active": true,
+          "Name": "NAV1 Freq Fine -",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>K:NAV1_RADIO_SWAP)",
+              "PresetId": "72e5dd2a-4e9d-4d61-940a-e523202f8dd0"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_NAV1_TOG"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_NAV1_TOG",
+          "GUID": "562fc571-935d-4084-9c0f-2781c65aaa86",
+          "Active": true,
+          "Name": "NAV1 Freq Toggle",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>K:NAV2_RADIO_WHOLE_INC)",
+              "PresetId": "ae7a3671-788b-48c9-b6d9-de10b2a624c7"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_NAV2_OI"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_NAV2_OI",
+          "GUID": "8a896057-7731-4af2-a97c-0d46a17e7d4e",
+          "Active": true,
+          "Name": "NAV2 Freq Coarse +",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>K:NAV2_RADIO_WHOLE_DEC)",
+              "PresetId": "f777e5bf-89b0-4964-ab23-c11870a37d6e"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_NAV2_OD"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_NAV2_OD",
+          "GUID": "9a7c3018-5805-4c8d-9bc1-5af5a49b6346",
+          "Active": true,
+          "Name": "NAV2 Freq Coarse -",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>K:NAV2_RADIO_FRACT_INC)",
+              "PresetId": "64b2ce51-c983-4ae8-8145-4a74c2fbf038"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_NAV2_II"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_NAV2_II",
+          "GUID": "0657b13e-8456-419f-af38-468e1c20a122",
+          "Active": true,
+          "Name": "NAV2 Freq Fine +",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>K:NAV2_RADIO_FRACT_DEC)",
+              "PresetId": "c9709caa-0465-4079-9291-703f5adb7451"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_NAV2_ID"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_NAV2_ID",
+          "GUID": "e9b81cb8-544c-4116-95e3-ef96b7a374a6",
+          "Active": true,
+          "Name": "NAV2 Freq Fine -",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>K:NAV2_RADIO_SWAP)",
+              "PresetId": "63711aad-e826-4be2-8ee6-b8af7ba92dd8"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_NAV2_TOG"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_NAV2_TOG",
+          "GUID": "35504503-bcb6-40b5-9345-1659851c0393",
+          "Active": true,
+          "Name": "NAV2 Freq Toggle",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>H:AS1000_PFD_CRS_INC)\n(>H:AS1000_PFD_CRS_INC)\n(>H:AS1000_PFD_CRS_INC)\n(>H:AS1000_PFD_CRS_INC)\n(>H:AS1000_PFD_CRS_INC)\n(>H:AS1000_PFD_CRS_INC)\n(>H:AS1000_PFD_CRS_INC)\n(>H:AS1000_PFD_CRS_INC)\n(>H:AS1000_PFD_CRS_INC)\n(>H:AS1000_PFD_CRS_INC)",
+              "PresetId": "3b8cdf53-086f-4c56-810b-ffb66099fa43"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_NAV1^_OI"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_NAV1^_OI",
+          "GUID": "960a5baf-0481-41de-9281-e4e628f8afb8",
+          "Active": true,
+          "Name": "CRS1 Coarse +",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>H:AS1000_PFD_CRS_DEC)\n(>H:AS1000_PFD_CRS_DEC)\n(>H:AS1000_PFD_CRS_DEC)\n(>H:AS1000_PFD_CRS_DEC)\n(>H:AS1000_PFD_CRS_DEC)\n(>H:AS1000_PFD_CRS_DEC)\n(>H:AS1000_PFD_CRS_DEC)\n(>H:AS1000_PFD_CRS_DEC)\n(>H:AS1000_PFD_CRS_DEC)\n(>H:AS1000_PFD_CRS_DEC)",
+              "PresetId": "5e79e34d-0346-447a-9f07-ce69d65d9a36"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_NAV1^_OD"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_NAV1^_OD",
+          "GUID": "09dcc6b5-522a-47ae-88df-83dc79e83237",
+          "Active": true,
+          "Name": "CRS1 Coarse -",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>H:AS1000_PFD_CRS_INC)",
+              "PresetId": "3b8cdf53-086f-4c56-810b-ffb66099fa43"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_NAV1^_II"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_NAV1^_II",
+          "GUID": "3f9fb8ce-debc-4afa-8b6e-8ca779934d3e",
+          "Active": true,
+          "Name": "CRS1 Fine +",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>H:AS1000_PFD_CRS_DEC)",
+              "PresetId": "5e79e34d-0346-447a-9f07-ce69d65d9a36"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_NAV1^_ID"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_NAV1^_ID",
+          "GUID": "54ae023f-f515-47b6-9ec3-0baeee443376",
+          "Active": true,
+          "Name": "CRS1 Fine -",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(A:NAV OBS:1, Degrees) 180 + dnor (>K:VOR1_SET)",
+              "PresetId": "525b29a1-ab5d-402f-a9ed-9e79d1912180"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_NAV1^_TOG"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_NAV1^_TOG",
+          "GUID": "e48c8aba-a87c-46f3-83e2-ab42cfa42111",
+          "Active": false,
+          "Name": "CRS1 Reverse (Toggle) (This is cheating :D)",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>K:RADIO_VOR1_IDENT_TOGGLE)",
+              "PresetId": "37c9eff4-c53d-4dfb-a7bc-33ce183b3378"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_NAV1^_TOG"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_NAV1^_TOG",
+          "GUID": "a9bc9ab7-e36a-43fb-90d2-ef8d0b3dc3e4",
+          "Active": true,
+          "Name": "NAV1 Ident Toggle",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>K:RADIO_VOR2_IDENT_TOGGLE)",
+              "PresetId": "54d19ede-e668-4f0a-aed8-2ed6aace18f3"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_NAV2^_TOG"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_NAV2^_TOG",
+          "GUID": "d352de09-60e6-48fd-a4c1-57f3abfa22ae",
+          "Active": true,
+          "Name": "NAV2 Ident Toggle",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(A:NAV OBS:2, Degrees) 10 + dnor (>K:VOR2_SET)",
+              "PresetId": "2290fc0d-9f36-4cbc-adb4-a17ad03e1046"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_NAV2^_OI"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_NAV2^_OI",
+          "GUID": "292a93b3-97de-41a4-82ab-e53915b909d3",
+          "Active": true,
+          "Name": "CRS2 Coarse +",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(A:NAV OBS:2, Degrees) 10 - dnor (>K:VOR2_SET)",
+              "PresetId": "b969b78d-7c6f-41a3-b205-010476a287f9"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_NAV2^_OD"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_NAV2^_OD",
+          "GUID": "4908c51b-0dd0-485a-92d0-793caf1782d2",
+          "Active": true,
+          "Name": "CRS2 Coarse -",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>K:VOR2_OBI_INC)",
+              "PresetId": "42d2d62c-4b78-4fe6-8fc6-cb25272ddd8c"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_NAV2^_II"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_NAV2^_II",
+          "GUID": "3d1e6827-2d03-405d-88fa-35ef48a01f32",
+          "Active": true,
+          "Name": "CRS2 Fine +",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>K:VOR2_OBI_DEC)",
+              "PresetId": "99057249-9a87-41af-b8ac-201018d65430"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_NAV2^_ID"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_NAV2^_ID",
+          "GUID": "b4add82f-fba1-4618-8bcb-24cbf62bcd20",
+          "Active": true,
+          "Name": "CRS2 Fine -",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(A:NAV OBS:2, Degrees) 180 + dnor (>K:VOR2_SET)",
+              "PresetId": "2290fc0d-9f36-4cbc-adb4-a17ad03e1046"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_NAV2^_TOG"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_NAV2^_TOG",
+          "GUID": "59ec928f-c87d-4c5d-8c5b-4f9df3e29253",
+          "Active": false,
+          "Name": "CRS2 Reverse (Toggle) (This is cheating :D) ",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>H:AS1000_PFD_FMS_Lower_INC)",
+              "PresetId": "a7e26b80-418a-4200-b576-28b50741d3e3"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_FMS1_OI"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_FMS1_OI",
+          "GUID": "ca1edbc8-49df-4cec-a962-07bfea683693",
+          "Active": true,
+          "Name": "FMS1 Coarse +",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          },
+          "RawValue": "PRESS",
+          "Value": " "
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>H:AS1000_PFD_FMS_Lower_DEC)",
+              "PresetId": "22c0671b-e21b-4dad-a552-b0d410f88f70"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_FMS1_OD"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_FMS1_OD",
+          "GUID": "c5ff9895-6b02-4325-bcf5-847b17464955",
+          "Active": true,
+          "Name": "FMS1 Coarse -",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          },
+          "RawValue": "PRESS",
+          "Value": " "
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>H:AS1000_PFD_FMS_Upper_INC)",
+              "PresetId": "e6fa50a6-17d7-491b-8c8f-a035410ae388"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_FMS1_II"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_FMS1_II",
+          "GUID": "1a225401-9beb-4001-9ebf-2843dc3a84c5",
+          "Active": true,
+          "Name": "FMS1 Fine +",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          },
+          "RawValue": "PRESS",
+          "Value": " "
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>H:AS1000_PFD_FMS_Upper_DEC)",
+              "PresetId": "38c75d3c-023b-49c9-810c-cd429107c321"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_FMS1_ID"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_FMS1_ID",
+          "GUID": "6f4c1129-020c-478f-85f7-58bcd5e23b75",
+          "Active": true,
+          "Name": "FMS1 Fine -",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          },
+          "RawValue": "PRESS",
+          "Value": " "
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>H:AS1000_PFD_FMS_Upper_PUSH)",
+              "PresetId": "fc706663-24cf-4350-a9b7-35e4e1c6b7f8"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_FMS1_CRSR"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_FMS1_CRSR",
+          "GUID": "bb59cd59-bda3-4e2d-ab6d-1ed7c14eb735",
+          "Active": true,
+          "Name": "FMS1 PUSH CRSR",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          },
+          "RawValue": "RELEASE",
+          "Value": " "
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>H:AS1000_PFD_DIRECTTO)",
+              "PresetId": "2766a15c-f7a6-4a7e-ae54-8a3f35ea5047"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_FMS1_DCT"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_FMS1_DCT",
+          "GUID": "b2380b8e-3f5b-4205-90f0-dc0fe16c1f6f",
+          "Active": true,
+          "Name": "FMS1 Direct-To",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          },
+          "ConfigRefs": [
+            {
+              "Active": true,
+              "Ref": "1172106d-0887-488c-8069-85dbad455016",
+              "Placeholder": "#",
+              "TestValue": "1"
+            }
+          ],
+          "RawValue": "RELEASE",
+          "Value": " "
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>H:AS1000_PFD_MENU_Push)",
+              "PresetId": "3824ae98-519c-40ef-b083-bf1d9fd3d451"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_FMS1_MENU"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_FMS1_MENU",
+          "GUID": "6b491c27-e499-4f19-9874-cf6d784a09f4",
+          "Active": true,
+          "Name": "FMS1 MENU",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>H:AS1000_PFD_CLR)",
+              "PresetId": "dc6ffbf7-9ead-421c-850c-b3ac8198041f"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_FMS1_CLR"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_FMS1_CLR",
+          "GUID": "a3a5a882-fc88-4afa-ad7d-f299f8db770c",
+          "Active": true,
+          "Name": "FMS1 CLR",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>H:AS1000_PFD_ENT_Push)",
+              "PresetId": "361208b1-4161-4752-9c65-8146fa5cb14d"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_FMS1_ENT"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_FMS1_ENT",
+          "GUID": "27be7808-6d70-4e23-9bd6-c5b66a947586",
+          "Active": true,
+          "Name": "FMS1 ENT",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>H:AS1000_PFD_SOFTKEYS_4)",
+              "PresetId": "952f663e-5f95-467b-bc52-be694818802c"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_FMS1_CDI"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_FMS1_CDI",
+          "GUID": "fce0d73f-ceb0-48e5-9db3-5c619f96d842",
+          "Active": true,
+          "Name": "FMS1 CDI S4",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>H:AS1000_PFD_SOFTKEYS_5)",
+              "PresetId": "784d87b9-a499-4f16-8fbb-f556d8a174aa"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_FMS1_OBS"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_FMS1_OBS",
+          "GUID": "f4cb70ab-f8ba-4a54-9f00-54cc01d88988",
+          "Active": true,
+          "Name": "FMS1 OBS S5",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>H:AS1000_PFD_SOFTKEYS_6)",
+              "PresetId": "c177c0bf-78d9-47b8-b1f5-906e0126fe85"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_FMS1_MSG"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_FMS1_MSG",
+          "GUID": "84f7c578-8f25-431e-8744-bb1bacda6bbd",
+          "Active": true,
+          "Name": "FMS1 MSG S6",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>H:AS1000_PFD_SOFTKEYS_7)",
+              "PresetId": "a706b901-fd6d-4a1f-893a-4dc9f5c2ae4c"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_FMS1_FPL"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_FMS1_FPL",
+          "GUID": "1cc63174-ec75-4832-91aa-d6a81667203a",
+          "Active": true,
+          "Name": "FMS1 FPL S7",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>H:AS1000_PFD_SOFTKEYS_11)",
+              "PresetId": "235e322b-1bf2-4328-94a8-a300e4bd59f2"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_FMS1_VNAV"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_FMS1_VNAV",
+          "GUID": "ae13af8a-0c1a-4c25-a918-fed212588a24",
+          "Active": true,
+          "Name": "FMS1 VNAV S11",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>H:AS1000_PFD_SOFTKEYS_12)",
+              "PresetId": "7cb85aba-44b1-40ac-97be-addd32d4b802"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_FMS1_PROC"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_FMS1_PROC",
+          "GUID": "755a3517-b3e9-4cfb-8c26-16152970929c",
+          "Active": true,
+          "Name": "FMS1 PROC - S12",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>H:AS1000_MFD_FMS_Lower_INC)",
+              "PresetId": "a144a51b-d9ed-4421-8eb5-e8048e61f827"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_FMS2_OI"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_FMS2_OI",
+          "GUID": "2255fad5-ca82-484a-b929-904f8112a75f",
+          "Active": true,
+          "Name": "FMS2 Coarse +",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>H:AS1000_MFD_FMS_Lower_DEC)",
+              "PresetId": "c9198ce0-3aa6-4a54-a646-d9489ebd2878"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_FMS2_OD"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_FMS2_OD",
+          "GUID": "22b1f06e-0ddd-4891-b572-89e078b853c0",
+          "Active": true,
+          "Name": "FMS2 Coarse -",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>H:AS1000_MFD_FMS_Upper_INC)",
+              "PresetId": "d02f496e-3b5a-427a-8300-cd21c97ffe6c"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_FMS2_II"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_FMS2_II",
+          "GUID": "12e3557b-66a1-49b4-9424-7f85ef2d9624",
+          "Active": true,
+          "Name": "FMS2 Fine +",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>H:AS1000_MFD_FMS_Upper_DEC)",
+              "PresetId": "0e1e89fe-18a6-4010-9f89-ddf36e4de3d7"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_FMS2_ID"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_FMS2_ID",
+          "GUID": "3230a797-2fe8-4124-8fe0-c43af1922c5b",
+          "Active": true,
+          "Name": "FMS2 Fine -",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>H:AS1000_MFD_FMS_Upper_PUSH)",
+              "PresetId": "ae9a71a4-9199-47c0-8380-fbd6273a8140"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_FMS2_CRSR"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_FMS2_CRSR",
+          "GUID": "fbd5a4e7-b662-4ee4-ab62-542e802ede87",
+          "Active": true,
+          "Name": "FMS2 PUSH CRSR",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          },
+          "RawValue": "RELEASE",
+          "Value": " "
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>H:AS1000_MFD_DIRECTTO)",
+              "PresetId": "498f733a-6718-4228-88dd-747cf04271ee"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_FMS2_DCT"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_FMS2_DCT",
+          "GUID": "ebac9294-d13f-48d4-8b19-e1ac02c6b11a",
+          "Active": true,
+          "Name": "FMS2 Direct-To",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>H:AS1000_MFD_MENU_Push)",
+              "PresetId": "59759a87-3b2b-4380-8481-bdf83d56d196"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_FMS2_MENU"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_FMS2_MENU",
+          "GUID": "406921a9-845e-4b3b-997d-b56ae7a10ccd",
+          "Active": true,
+          "Name": "FMS2 MENU",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>H:AS1000_MFD_CLR)",
+              "PresetId": "56c20d5a-439f-4403-abbe-ff721f494a7b"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_FMS2_CLR"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_FMS2_CLR",
+          "GUID": "0f08e6a6-43ec-4f82-876c-82ae631a8b06",
+          "Active": true,
+          "Name": "FMS2 CLR",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>H:AS1000_MFD_ENT_Push)",
+              "PresetId": "7c502237-ca70-44c9-ab79-8fa34b8d9bf5"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_FMS2_ENT"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_FMS2_ENT",
+          "GUID": "4aea531d-8a47-4a37-8557-28806754e4f1",
+          "Active": true,
+          "Name": "FMS2 ENT",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": null,
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_FMS2_CDI"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_FMS2_CDI",
+          "GUID": "c2d360f8-0dc6-415b-963f-a2a4a5f36012",
+          "Active": true,
+          "Name": "FMS2 CDI",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": null,
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_FMS2_OBS"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_FMS2_OBS",
+          "GUID": "87b48533-c337-44f6-8e80-cd7564525264",
+          "Active": true,
+          "Name": "FMS2 OBS",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>H:AS1000_PFD_SOFTKEYS_5)",
+              "PresetId": "784d87b9-a499-4f16-8fbb-f556d8a174aa"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_FMS2_MSG"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_FMS2_MSG",
+          "GUID": "e0285d7e-a3d7-4f3b-af2a-d5cf31a9e2b2",
+          "Active": true,
+          "Name": "FMS2 MSG",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>H:AS1000_MFD_FPL_Push)",
+              "PresetId": "907761d1-2789-4b4d-999a-794d0da1844e"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_FMS2_FPL"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_FMS2_FPL",
+          "GUID": "d6e6bcc1-f064-482b-9c72-358aee686a35",
+          "Active": true,
+          "Name": "FMS2 FPL",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": null,
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_FMS2_VNAV"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_FMS2_VNAV",
+          "GUID": "ac018e13-84e5-43ec-b601-ccba99963394",
+          "Active": true,
+          "Name": "FMS2 VNAV",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>H:AS1000_MFD_PROC_Push)",
+              "PresetId": "0552f93e-9252-49be-b4f4-429d43a47879"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_FMS2_PROC"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_FMS2_PROC",
+          "GUID": "33fe1647-7296-4871-8f3a-d839cd014636",
+          "Active": true,
+          "Name": "FMS2 PROC",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>K:AP_MASTER)",
+              "PresetId": "b17146c8-2db3-4239-b797-e7bc11d557da"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_AP_AP"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_AP_AP",
+          "GUID": "e835f897-cf2f-4be1-ab3a-641991c81f54",
+          "Active": true,
+          "Name": "AP Engage/Disengage",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>K:AP_HDG_HOLD)",
+              "PresetId": "1e879ccb-96c9-401e-b447-940c7380a410"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_AP_HDG"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_AP_HDG",
+          "GUID": "41f67d30-af75-4f8e-855b-ebfafed6be8e",
+          "Active": true,
+          "Name": "AP HDG",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>K:AP_NAV1_HOLD)",
+              "PresetId": "83a61eaf-5315-445b-bc1e-bc76135cca76"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_AP_NAV"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_AP_NAV",
+          "GUID": "95c9d163-a652-4467-931f-90109baf70b6",
+          "Active": true,
+          "Name": "AP NAV",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>K:AP_APR_HOLD)",
+              "PresetId": "de7fab05-76c5-4fc1-a86a-e32a31c5aff3"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_AP_APR"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_AP_APR",
+          "GUID": "f06f317b-e274-4dec-9606-2ef8e05c6bbf",
+          "Active": true,
+          "Name": "AP APR",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>K:AP_ALT_HOLD)",
+              "PresetId": "a946ee03-bd6d-4ed4-b1c2-72d26df93848"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_AP_ALT"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_AP_ALT",
+          "GUID": "9ca1ee9e-a602-4cc3-8858-224f6225e07c",
+          "Active": true,
+          "Name": "AP ALT",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>K:AP_PANEL_VS_HOLD)",
+              "PresetId": "6a81e461-5a7b-4dbf-b0b2-7cacc179df42"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_AP_VS"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_AP_VS",
+          "GUID": "8897de1e-6e9e-45cb-a662-1e5544fc9b53",
+          "Active": true,
+          "Name": "AP VS",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>K:AP_ALT_VAR_INC)",
+              "PresetId": "6b70bc27-97bf-499e-ba49-3d63984aa593"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_AP_OI"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_AP_OI",
+          "GUID": "da6eab89-0cca-4c90-9f2b-6289d97e2fb9",
+          "Active": true,
+          "Name": "AP ALT +",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          },
+          "RawValue": "PRESS",
+          "Value": " "
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>K:AP_ALT_VAR_DEC)",
+              "PresetId": "035b1f1d-1e4e-4809-9713-07fe5ab0581d"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_AP_OD"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_AP_OD",
+          "GUID": "2465811a-8149-450e-903f-f982c925e2dc",
+          "Active": true,
+          "Name": "AP ALT -",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(A:AUTOPILOT VERTICAL HOLD, Bool) if{ (>K:AP_VS_VAR_INC) (>H:AP_DN) } (A:AUTOPILOT FLIGHT LEVEL CHANGE, Bool) if{ (>K:AP_SPD_VAR_INC) } (A:AUTOPILOT PITCH HOLD, Bool) if{ (>K:AP_PITCH_REF_INC_UP) }",
+              "PresetId": "-"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_AP_II"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_AP_II",
+          "GUID": "2ad9fe17-b009-4616-9f19-3d1fc0d3fd75",
+          "Active": true,
+          "Name": "AP VS +",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(A:AUTOPILOT VERTICAL HOLD, Bool) if{ (>K:AP_VS_VAR_DEC) (>H:AP_UP) } (A:AUTOPILOT FLIGHT LEVEL CHANGE, Bool) if{ (>K:AP_SPD_VAR_DEC) } (A:AUTOPILOT PITCH HOLD, Bool) if{ (>K:AP_PITCH_REF_INC_DN) }",
+              "PresetId": "-"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_AP_ID"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_AP_ID",
+          "GUID": "5fd4fb7d-adc7-4846-8321-d3af8b993177",
+          "Active": true,
+          "Name": "AP VS -",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(A:TRANSPONDER CODE:1, number) s0 100 % sp2 \nl0 100 div ++ s1 10 % 8 == if{  l1 2 + } els{  l1 }\n0 max 77 min 100 * l2 + (>L:mfXPNDR, Number)\n(L:mfXPNDR, BCO16) (>K:XPNDR_SET)  ",
+              "PresetId": "029bcbf0-a97f-4cfd-b07e-dc88a23a879b"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_XPDR_OI"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_XPDR_OI",
+          "GUID": "650d518f-3973-495e-85f0-e47befcf4e3f",
+          "Active": true,
+          "Name": "XPDR Coarse +",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(A:TRANSPONDER CODE:1, number) s0 100 % sp2 \nl0 100 div -- s1 10 % 9 == if{  l1 2 - } els{  l1 }\n0 max 77 min 100 * l2 + (>L:mfXPNDR, Number)\n(L:mfXPNDR, BCO16) (>K:XPNDR_SET)  ",
+              "PresetId": "db32e368-bbf9-462b-9263-ba0d6b734841"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_XPDR_OD"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_XPDR_OD",
+          "GUID": "c4f2f342-1b16-4683-9227-d81ac4de438f",
+          "Active": true,
+          "Name": "XPDR Coarse -",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(A:TRANSPONDER CODE:1, number) s0 100 div sp2 \nl0 100 % ++ s1 10 % 8 == if{  l1 2 + } els{  l1 }\n0 max 77 min l2 100 * + (>L:mfXPNDR, Number)\n(L:mfXPNDR, BCO16) (>K:XPNDR_SET)  ",
+              "PresetId": "57e10ecc-ad84-4a81-878e-102a9a5838c8"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_XPDR_II"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_XPDR_II",
+          "GUID": "3683bbf3-a674-4c5b-9978-02a88e08564f",
+          "Active": true,
+          "Name": "XPDR Fine +",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(A:TRANSPONDER CODE:1, number) s0 100 div sp2 \nl0 100 % -- s1 10 % 9 == if{  l1 2 - } els{  l1 }\n0 max 77 min l2 100 * + (>L:mfXPNDR, Number)\n(L:mfXPNDR, BCO16) (>K:XPNDR_SET)  ",
+              "PresetId": "532d1911-b67f-4069-b119-73f982997f1c"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_XPDR_ID"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_XPDR_ID",
+          "GUID": "69605c79-7a46-4e87-a4dc-f0dc176c0120",
+          "Active": true,
+          "Name": "XPDR Fine -",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "# (>K:PILOT_TRANSMITTER_SET)",
+              "PresetId": "-"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_FMS1_TOG"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_FMS1_TOG",
+          "GUID": "f9302504-9863-4acb-9c06-da7acb2a64b2",
+          "Active": true,
+          "Name": "FMS1 TOGGLE - Radio TX Swap",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          },
+          "ConfigRefs": [
+            {
+              "Active": true,
+              "Ref": "1172106d-0887-488c-8069-85dbad455016",
+              "Placeholder": "#",
+              "TestValue": "1"
+            }
+          ]
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>K:COM_RECEIVE_ALL_TOGGLE)",
+              "PresetId": "31ab50c7-e266-411f-975d-666a661d6a76"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_FMS2_TOG"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_FMS2_TOG",
+          "GUID": "70d48bc2-eb1b-4841-8cea-83f8e1e0039c",
+          "Active": true,
+          "Name": "FMS2 Toggle - 2nd Radio RX",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(A:AUTOPILOT MASTER, bool) ! if{ 0 (>K:TOGGLE_FLIGHT_DIRECTOR) }",
+              "PresetId": "acff9234-b036-4b01-b2e7-0c232440e91f"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_AP^_TOG"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_AP^_TOG",
+          "GUID": "4767558a-c291-4fdd-bb89-50541a34e077",
+          "Active": true,
+          "Name": "AP Toggle FD",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>H:AS1000_MFD_RANGE_INC)",
+              "PresetId": "fdcb4bc4-96ee-4fa8-8514-ae2d00c14336"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_AP^_OI"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_AP^_OI",
+          "GUID": "a04f2d42-7729-49ac-a7f8-a73dfc7e795a",
+          "Active": true,
+          "Name": "AP^ MFD Zoom+",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          },
+          "RawValue": "PRESS",
+          "Value": " "
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>H:AS1000_MFD_RANGE_DEC)",
+              "PresetId": "a3c8d8e0-e6a5-4c19-9b3e-31178dfa2ebb"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_AP^_OD"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_AP^_OD",
+          "GUID": "5a3d0dc4-c9e1-44ff-96c1-0b8b8496df7a",
+          "Active": true,
+          "Name": "AP^ MFD Zoom-",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "# (>A:TRANSPONDER STATE:1, Enum)",
+              "PresetId": "f93b81d9-73f3-4734-a9b6-08f9684f179b"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_XPDR^_TOG"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_XPDR^_TOG",
+          "GUID": "30590fe7-824e-435e-add5-9c3529af2029",
+          "Active": true,
+          "Name": "XPDR Toggle",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          },
+          "ConfigRefs": [
+            {
+              "Active": true,
+              "Ref": "5fcf49a7-59f5-466f-9c9f-81b06c5184ff",
+              "Placeholder": "#",
+              "TestValue": "1"
+            }
+          ]
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "1 (>A:TRANSPONDER STATE:1, Enum)",
+              "PresetId": "6bb83f0e-6466-4cc1-9f3d-26c205a340a5"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_XPDR^_OD"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_XPDR^_OD",
+          "GUID": "c864a1ae-d5db-45ce-acdf-815e00dc0653",
+          "Active": true,
+          "Name": "XPDR STBY",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "4 (>A:TRANSPONDER STATE:1, Enum)",
+              "PresetId": "22f6b23a-79cd-4761-b066-b2bc1a309df6"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_XPDR^_OI"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_XPDR^_OI",
+          "GUID": "767e1b9e-629a-44e7-bdd6-6922d5535b60",
+          "Active": true,
+          "Name": "XPDR ALT",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "28672 (>A:TRANSPONDER CODE:1, Number) ",
+              "PresetId": "14c3383b-ea83-403d-9ad2-30bfdae77bac"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_XPDR_TOG"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_XPDR_TOG",
+          "GUID": "6c4c84f1-fc58-428f-bc6e-f761e475a1c8",
+          "Active": true,
+          "Name": "XPDR 7000",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>K:FLIGHT_LEVEL_CHANGE) (A:AIRSPEED INDICATED, knots) (>K:AP_SPD_VAR_SET)",
+              "PresetId": "05dababd-c9ed-4951-a4f6-c5b6e07ed271"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_AP_TOG"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_AP_TOG",
+          "GUID": "fe94dfc8-6d6a-4fdd-ba88-96831546e70b",
+          "Active": true,
+          "Name": "AP FLC",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": null,
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_AP^_II"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_AP^_II",
+          "GUID": "9d6d63e4-d671-4a94-a947-7843b1c4e58e",
+          "Active": false,
+          "Name": "AP^ Inner +",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": null,
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_AP^_ID"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_AP^_ID",
+          "GUID": "a59f74f0-820b-4659-93b4-77f0a2a5e6f9",
+          "Active": false,
+          "Name": "AP^ Inner -",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": null,
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_XPDR^_II"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_XPDR^_II",
+          "GUID": "8df1763b-3490-4257-91b0-a2774dfa1733",
+          "Active": false,
+          "Name": "XPDR^ Inner +",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": null,
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_XPDR^_ID"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_XPDR^_ID",
+          "GUID": "f2b6021e-5ccf-47f8-8e73-4352f4805b39",
+          "Active": false,
+          "Name": "XPDR^ Inner -",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          }
+        },
+        {
+          "Source": {
+            "MobiFlightVariable": {
+              "TYPE": "number",
+              "Name": "IsIFRShifted",
+              "Number": 0.0,
+              "Text": "",
+              "Expression": "$"
+            },
+            "Type": "VariableSource"
+          },
+          "TestValue": {
+            "type": 1,
+            "Float64": 1.0,
+            "String": null
+          },
+          "Device": {
+            "Name": "Out6",
+            "Pin": "Out6",
+            "Brightness": 255,
+            "PwmMode": false,
+            "Type": "Output"
+          },
+          "DeviceType": "Output",
+          "DeviceName": "Out6",
+          "GUID": "bb841f1a-56e8-459c-8a30-11bfdb99e4de",
+          "Active": true,
+          "Name": "Shifted",
+          "Type": "OutputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          },
+          "RawValue": "0",
+          "Value": "0"
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "VariableInputAction",
+              "Variable": {
+                "TYPE": "number",
+                "Name": "IsIFRShifted",
+                "Number": 0.0,
+                "Text": "0",
+                "Expression": "Abs($ - 1)"
+              }
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button_FMS2_CRSR"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button_FMS2_CRSR",
+          "GUID": "21522f62-4a22-48ce-b1ee-dcba6f25f1b6",
+          "Active": true,
+          "Name": "cursor blink FMS1",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "IFR1",
+            "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
+          },
+          "RawValue": "RELEASE",
+          "Value": " "
+        }
+      ]
+    }
+  ],
+  "Sim": "msfs",
+  "Aircraft": [],
+  "Features": {
+    "FSUIPC": false,
+    "ProSim": false
+  },
+  "_version": "0.9"
+}

@@ -25,6 +25,11 @@
       "Label": "NAV2"
     },
     {
+      "Id": 6,
+      "Type": "Button",
+      "Label": "AP"
+    },
+    {
       "Id": 7,
       "Type": "Button",
       "Label": "XPDR"
@@ -66,7 +71,12 @@
       "Id": "AP.VS",
       "Byte": 1,
       "Bit": 5
+    },
+    {
+      "Label": "Blink Context",
+      "Id": "CS.SH",
+      "Byte": 1,
+      "Bit": 6
     }
-
   ]
 }
