@@ -2,7 +2,7 @@
   "Name": "Test Shiftmode",
   "ConfigFiles": [
     {
-      "Label": "New file",
+      "Label": "Test Shifting",
       "FileName": null,
       "ReferenceOnly": false,
       "EmbedContent": true,
@@ -39,9 +39,7 @@
           "Controller": {
             "Name": "IFR1",
             "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
-          },
-          "RawValue": "0",
-          "Value": "0"
+          }
         },
         {
           "button": {
@@ -75,9 +73,7 @@
           "Controller": {
             "Name": "IFR1",
             "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
-          },
-          "RawValue": "RELEASE",
-          "Value": " "
+          }
         },
         {
           "button": {
@@ -111,9 +107,7 @@
           "Controller": {
             "Name": "IFR1",
             "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
-          },
-          "RawValue": "RELEASE",
-          "Value": " "
+          }
         }
       ]
     }
