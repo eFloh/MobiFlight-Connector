@@ -3,9 +3,9 @@ name: Python Script Checks
 on:
   workflow_dispatch:
   pull_request:
-    branches: [ main, mf2025/main ]
+    branches: [ main, hotfix/* ]
     paths:
-      - 'Scripts/**/*.py'
+      - '**/Scripts/**/*.py'
 
 jobs:
   python-script-checks:
@@ -35,4 +35,4 @@ jobs:
           pip install pylint gql websockets simconnect
 
       - name: Run linter on the Scripts folder
-        run: pylint Scripts --disable=all --enable=F,E
+        run: pylint src/MobiFlightConnector/Scripts --disable=all --enable=F,E

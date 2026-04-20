@@ -1,7 +1,7 @@
 name: Check translations
 on:
   pull_request:
-    branches: [ main, mf2025/main ]
+    branches: [ main, hotfix/* ]
     paths:
       # Trigger only when files in the public/locales folder change
       - 'frontend/public/locales/**' 
@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./frontend
+        working-directory: src/MobiFlightConnector/frontend
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-node@v6
