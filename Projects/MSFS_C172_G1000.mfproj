@@ -1112,11 +1112,6 @@
                 "Active": true
               }
             ]
-          },
-          "RawValue": "0",
-          "Value": "0",
-          "Status": {
-            "Source": "SIMCONNECT_NOT_AVAILABLE"
           }
         },
         {
@@ -1195,12 +1190,6 @@
                 "Active": true
               }
             ]
-          },
-          "RawValue": "0",
-          "Value": "0",
-          "Status": {
-            "Source": "SIMCONNECT_NOT_AVAILABLE",
-            "Precondition": "not satisfied"
           }
         },
         {
@@ -1235,9 +1224,7 @@
           "Controller": {
             "Name": "IFR1",
             "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
-          },
-          "RawValue": "RELEASE",
-          "Value": " "
+          }
         },
         {
           "button": {
@@ -1271,9 +1258,7 @@
           "Controller": {
             "Name": "IFR1",
             "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
-          },
-          "RawValue": "RELEASE",
-          "Value": " "
+          }
         },
         {
           "Source": {
@@ -1336,11 +1321,6 @@
                 "Active": true
               }
             ]
-          },
-          "RawValue": "0",
-          "Value": "0",
-          "Status": {
-            "Precondition": "not satisfied"
           }
         },
         {
@@ -1404,11 +1384,6 @@
                 "Active": true
               }
             ]
-          },
-          "RawValue": "0",
-          "Value": "0",
-          "Status": {
-            "Precondition": "not satisfied"
           }
         },
         {
@@ -1480,11 +1455,6 @@
                 "Active": false
               }
             ]
-          },
-          "RawValue": "0",
-          "Value": "0",
-          "Status": {
-            "Source": "SIMCONNECT_NOT_AVAILABLE"
           }
         },
         {
@@ -1534,11 +1504,6 @@
                 "Active": false
               }
             ]
-          },
-          "RawValue": "0",
-          "Value": "0",
-          "Status": {
-            "Source": "SIMCONNECT_NOT_AVAILABLE"
           }
         },
         {
@@ -1600,11 +1565,6 @@
                 "Active": false
               }
             ]
-          },
-          "RawValue": "0",
-          "Value": "0",
-          "Status": {
-            "Source": "SIMCONNECT_NOT_AVAILABLE"
           }
         },
         {
@@ -1654,11 +1614,6 @@
                 "Active": false
               }
             ]
-          },
-          "RawValue": "0",
-          "Value": "0",
-          "Status": {
-            "Source": "SIMCONNECT_NOT_AVAILABLE"
           }
         },
         {
@@ -1720,11 +1675,6 @@
                 "Active": false
               }
             ]
-          },
-          "RawValue": "0",
-          "Value": "0",
-          "Status": {
-            "Source": "SIMCONNECT_NOT_AVAILABLE"
           }
         },
         {
@@ -1789,11 +1739,6 @@
                 "Active": true
               }
             ]
-          },
-          "RawValue": "0",
-          "Value": "0",
-          "Status": {
-            "Source": "SIMCONNECT_NOT_AVAILABLE"
           }
         },
         {
@@ -1823,9 +1768,7 @@
           "Controller": {
             "Name": "IFR1",
             "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
-          },
-          "RawValue": "RELEASE",
-          "Value": " "
+          }
         },
         {
           "button": {
@@ -1883,9 +1826,7 @@
           "Controller": {
             "Name": "IFR1",
             "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
-          },
-          "RawValue": "RELEASE",
-          "Value": " "
+          }
         },
         {
           "button": {
@@ -1914,9 +1855,7 @@
           "Controller": {
             "Name": "IFR1",
             "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
-          },
-          "RawValue": "RELEASE",
-          "Value": " "
+          }
         },
         {
           "button": {
@@ -1945,9 +1884,7 @@
           "Controller": {
             "Name": "IFR1",
             "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
-          },
-          "RawValue": "RELEASE",
-          "Value": " "
+          }
         },
         {
           "button": {
@@ -1976,9 +1913,7 @@
           "Controller": {
             "Name": "IFR1",
             "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
-          },
-          "RawValue": "RELEASE",
-          "Value": " "
+          }
         },
         {
           "button": {
@@ -2007,9 +1942,7 @@
           "Controller": {
             "Name": "IFR1",
             "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
-          },
-          "RawValue": "RELEASE",
-          "Value": " "
+          }
         },
         {
           "button": {
@@ -2365,9 +2298,7 @@
           "Controller": {
             "Name": "IFR1",
             "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
-          },
-          "RawValue": "RELEASE",
-          "Value": " "
+          }
         },
         {
           "button": {
@@ -2810,9 +2741,7 @@
           "Controller": {
             "Name": "IFR1",
             "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
-          },
-          "RawValue": "RELEASE",
-          "Value": " "
+          }
         },
         {
           "button": {
@@ -3129,11 +3058,6 @@
                 "Active": true
               }
             ]
-          },
-          "RawValue": "0",
-          "Value": "1",
-          "Status": {
-            "Source": "SIMCONNECT_NOT_AVAILABLE"
           }
         },
         {
@@ -3287,9 +3211,7 @@
               "Placeholder": "#",
               "TestValue": "1"
             }
-          ],
-          "RawValue": "RELEASE",
-          "Value": " "
+          ]
         },
         {
           "button": {
@@ -3407,11 +3329,6 @@
                 "Active": true
               }
             ]
-          },
-          "RawValue": "0",
-          "Value": "1",
-          "Status": {
-            "Source": "SIMCONNECT_NOT_AVAILABLE"
           }
         },
         {
@@ -3507,9 +3424,7 @@
           "Controller": {
             "Name": "IFR1",
             "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
-          },
-          "RawValue": "RELEASE",
-          "Value": " "
+          }
         },
         {
           "button": {
@@ -3654,9 +3569,7 @@
           "Controller": {
             "Name": "IFR1",
             "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
-          },
-          "RawValue": "PRESS",
-          "Value": " "
+          }
         },
         {
           "button": {
@@ -3685,9 +3598,7 @@
           "Controller": {
             "Name": "IFR1",
             "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
-          },
-          "RawValue": "PRESS",
-          "Value": " "
+          }
         },
         {
           "button": {
@@ -3716,9 +3627,7 @@
           "Controller": {
             "Name": "IFR1",
             "Serial": "JS-439ed980-c5f4-11ee-8001-444553540000"
-          },
-          "RawValue": "PRESS",
-          "Value": " "
+          }
         },
         {
           "button": {
