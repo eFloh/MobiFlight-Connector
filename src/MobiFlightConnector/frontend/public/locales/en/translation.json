@@ -44,7 +44,7 @@
       }
     },
     "Extras": {
-      "Label" : "Extras",
+      "Label": "Extras",
       "HubHop.DownloadLatestPresets": "Download latest presets",
       "MSFS.ReinstallWASMModule": "Re-install WASM Module",
       "CopyLogs": "Copy logs to clipboard",
@@ -313,6 +313,10 @@
     "TestModeException": {
       "Title": "Test Mode Error",
       "Description": "{{errorMessage}}"
+    },
+    "ProjectFileLoadError": {
+      "Title": "Project could not be loaded",
+      "Description": "An error occurred on loading {{fileName}} - {{errorMessage}}"
     }
   },
   "Startup": {
@@ -362,7 +366,7 @@
     "User": {
       "SignIn": "Sign in",
       "SignOut": "Sign out",
-      "Profile": "Profile",
+      "Profile": "Member Profile",
       "ProfileFeatureComingSoon": "coming soon"
     },
     "Redirect": {
@@ -377,6 +381,16 @@
         "Description": "An error occurred during authentication.",
         "ActionCopyToClipboard": "Copy message"
       }
+    }
+  },
+  "Membership": {
+    "Club": "MobiFlight Club",
+    "Status": {
+      "Member": "Club Member",
+      "Basic": "Basic Account"
+    },
+    "Action": {
+      "Upgrade": "Upgrade"
     }
   }
 }

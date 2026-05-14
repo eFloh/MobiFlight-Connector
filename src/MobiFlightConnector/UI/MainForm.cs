@@ -58,7 +58,7 @@ namespace MobiFlight.UI
         private bool hasConnectedMidiBoards = false;
         private bool hasConnectedModules = false;
 
-        private bool IsMSFSRunning = false; 
+        private bool IsMSFSRunning = false;
         private bool frontendReady = false;
 
         public ExecutionManager ExecutionManager
@@ -282,9 +282,13 @@ namespace MobiFlight.UI
                     frontendPanel1.BeginAuthProcess(message.Url);
                 }
 
-                if (message.State == CommandUserAuthenticationState.success)
+                // Only evaluate success if AuthProcess is still in progress.
+                // Once the auth process is completed, we want to ignore any further messages.
+                if (message.State == CommandUserAuthenticationState.success && 
+                    frontendPanel1.AuthProcessInProgress)
                 {
                     frontendPanel1.EndAuthProcess();
+
                     MessageExchange.Instance.Publish(new AuthenticationStatus()
                     {
                         Authenticated = message.Flow == CommandUserAuthenticationFlow.login
@@ -625,7 +629,7 @@ namespace MobiFlight.UI
                 var currentControllerBindings = execManager.Project.ControllerBindings;
                 var controllerBindings = ControllerBindingService.AnalyzeProjectBindings(execManager.Project);
 
-                if ((currentControllerBindings == null && controllerBindings!= null) ||
+                if ((currentControllerBindings == null && controllerBindings != null) ||
                     !controllerBindings.SequenceEqual(currentControllerBindings))
 
                 {
@@ -2075,8 +2079,17 @@ namespace MobiFlight.UI
             }
             catch (Exception ex)
             {
-                Log.Instance.log($"Unable to load configuration file: {ex.Message}", LogSeverity.Error);
-                MessageBox.Show(i18n._tr("uiMessageProblemLoadingConfig"), i18n._tr("Hint"));
+                // show that something went wrong opening the file.
+                MessageExchange.Instance.Publish(new Notification()
+                {
+                    Event = "ProjectFileLoadError",
+                    Context = new Dictionary<string, string>()
+                    {
+                        { "FileName", fileName },
+                        { "ErrorMessage", ex.Message  }
+                    }
+                });
+
                 return;
             }
 

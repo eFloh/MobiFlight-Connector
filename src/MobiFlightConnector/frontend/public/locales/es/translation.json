@@ -319,6 +319,10 @@
     "TestModeException": {
       "Title": "Error en modo de prueba",
       "Description": "{{errorMessage}}"
+    },
+    "ProjectFileLoadError": {
+      "Title": "No se pudo cargar el proyecto",
+      "Description": "Ocurrió un error al cargar {{fileName}} - {{errorMessage}}"
     }
   },
   "Startup": {
@@ -383,6 +387,16 @@
         "Description": "Ocurrió un error durante la autenticación.",
         "ActionCopyToClipboard": "Copiar mensaje"
       }
+    }
+  },
+  "Membership": {
+    "Club": "Club MobiFlight",
+    "Status": {
+      "Member": "Miembro del Club",
+      "Basic": "Cuenta básica"
+    },
+    "Action": {
+      "Upgrade": "Mejorar plan"
     }
   }
 }
